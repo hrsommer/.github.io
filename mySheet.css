@@ -1,0 +1,163 @@
+html,
+body {
+  height: 100%;
+  width: 100%
+  background-color: #333;
+    text-align: center;
+ }
+body {
+background-image: url(belly-hell.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+}
+
+p {
+  color: black;
+  font-size: large;
+}
+
+#hallo {
+  color: black;
+  font-size: large;
+  text-shadow: white 0px 0px 20px;
+          position: relative; 
+          top: 5%; 
+          font: caption;
+          
+}
+
+
+button.button1{
+ display:inline-block;
+ background-color: rgba(0,0,0,0);
+ padding:0.35em 1.2em;
+ border:0.15em solid #000000;
+ margin:0 0.3em 0.3em 0;
+ border-radius:0.52em;
+ box-sizing: border-box;
+ text-decoration:none;
+ color: #000000;
+ text-align:center;
+ transition: all 0.5s;
+}
+button.button1:hover{
+ color:#FFFFFF;
+ border:0.15em solid #FFFFFF
+}
+@media all and (max-width:30em){
+ button.button1{
+  display:block;
+  margin:0.4em auto;
+ }
+} 
+
+
+
+
+
+.animation-box {
+  width: 99%;
+  height: 25rem;
+  background-color: rgba(0,0,0,0.0);
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  
+  position: absolute;
+  top: 20%;
+  left: 0.5%;
+}
+
+@keyframes fadeInNormal {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+    100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeInStayLong {
+  0% {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;  
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.first-text {
+  font-size: 3rem;
+  
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  
+  opacity: 0;
+  color: #000000;
+  animation-name: fadeInNormal;
+  animation-duration: 7s;
+  animation-play-state: paused;
+}
+
+.mySecond {
+  font-size: 3rem;
+  
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  
+  opacity: 0;
+  color: #000000;
+  animation-name: fadeInNormal;
+  animation-delay: 7s;
+  animation-duration: 7s;
+  animation-play-state: paused;
+
+}
+
+.myThird {
+  font-size:3rem;
+  
+  
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  color: #000000;
+  animation-name: fadeInStayLong;
+  animation-delay: 14.0s;
+  animation-duration: 900s;
+  animation-play-state: paused;
+
+}
+
+.awayClass {
+  position: absolute;
+  top: -100.5rem;
+  
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
