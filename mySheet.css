@@ -104,7 +104,7 @@ button.button1:hover{
   opacity: 0;
   color: #000000;
   animation-name: fadeInNormal;
-  animation-duration: 7s;
+  animation-duration: 4s;
   animation-play-state: paused;
 }
 
@@ -119,8 +119,8 @@ button.button1:hover{
   opacity: 0;
   color: #000000;
   animation-name: fadeInNormal;
-  animation-delay: 7s;
-  animation-duration: 7s;
+  animation-delay: 4s;
+  animation-duration: 4s;
   animation-play-state: paused;
 
 }
@@ -136,7 +136,7 @@ button.button1:hover{
   opacity: 0;
   color: #000000;
   animation-name: fadeInStayLong;
-  animation-delay: 14.0s;
+  animation-delay: 8.0s;
   animation-duration: 900s;
   animation-play-state: paused;
 
