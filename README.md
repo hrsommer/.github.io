@@ -1,3 +1,3 @@
-Human Friendly BMI calculator.
+The Human Friendly BMI Calculator.
 
 Visit https://hrsommer.github.io/
